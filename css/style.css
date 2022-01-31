@@ -1,0 +1,166 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 220px;
+}
+body {
+      background-color:  rgba(0, 0, 0, 0);
+      background-image: url("home_image.png") no-repeat;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+.cards {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+} 
+
+
+h1 {
+    color: black;
+    text-align: center;
+}
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+  margin: 5px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+body, html {
+  color: white;
+  display: grid;
+  max-width: 100%;
+  place-items: center;
+ 
+}
+
+h2 {
+  margin: 0;
+  color: #01010c;
+  font-size: 2.5em;
+  font-weight: 600;
+  margin-top: 5rem;
+  place-items: center;
+}
+
+form{
+  width: 50%;
+  place-items: center;
+}
+
+form label{
+  font-size: 1.2rem;
+}
+
+input, textarea, button {
+  width: 100%;
+  padding: 0.5em;
+  border: none;
+  font-size: 1.2rem;
+}
+input[type="text"], input[type="email"], textarea {
+  margin: 0 0 1em;
+  border: 1px solid black;
+  outline: none;
+}
+
+textarea {
+  height: 6em;
+}
+input[type="submit"], button {
+  background: #fbfbfc;
+  color: rgb(1, 4, 14);
+  cursor: pointer;
+}
+input[type="submit"]:hover, button:hover {
+  background: white;
+}
+
+/* flex and flex wrap */
+
+.container {
+  display: flex;
+  flex-wrap: wrap; /* this */
+  gap: 10px;
+}
+
+.container {
+  height: 200px;
+  flex: max(400px, 100%/4 +0.1%); /* and this */
+  background-color: rgb(183, 201, 207);
+
+}
+/* When the browser is at least 600px and above */
+  @media screen and (min-width: 600px) {
+  .element {
+    background-color: chartreuse;
+  }
+
+.header {
+  background-color: rgba(0, 0, 0, 0);
+  margin-top: 40px;
+  width: 100%;
+}
+
+  }
+  .footer {
+    display: grid;
+    width: 100%;
+    place-items: center;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+
+
+
+
+@media (min-width: 576px) {
+    body {
+        background-color: grey;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        background-color: rgb(4, 4, 53);
+    }
+}
+
+@media (min-width: 992px) {
+
+    body {
+        background-color: grey;
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+        background-color: rgb(4, 4, 53);
+    }
+}
+
+
+@media (min-width: 1400px) {
+    body {
+        background-color: grey;
+    }
+}
